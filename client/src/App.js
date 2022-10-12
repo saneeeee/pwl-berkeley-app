@@ -36,7 +36,7 @@ function App() {
 function EventsList() {
     return (
         <div className="eventsList">
-            <ul style={{listStyleType: "none"}}>
+            <ul className="px-0" style={{listStyleType: "none"}}>
                 <li>
                     {EventCard()}
                 </li>
