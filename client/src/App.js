@@ -7,7 +7,7 @@ function App() {
                     <a className="navbar-brand" href="#zbab">
                         <img src={logo} alt="Logo" width="30" height="24"
                              className="d-inline-block align-text-top"
-                             />
+                             style={{width: "100px"}}/>
                             PWL@Berkeley
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
