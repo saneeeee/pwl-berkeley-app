@@ -1,34 +1,10 @@
-import logo from './static/SVG/pwl@berkeley-logo.svg';
-function App() {
+import logo from '../static/SVG/pwl@berkeley-logo.svg';
+function UpcomingEvents() {
     return (
         <div className="App">
-            <nav className="navbar navbar-expand-lg bg-light">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#zbab">
-                        <img src={logo} alt="Logo" width="30" height="24"
-                             className="d-inline-block align-text-top"
-                             style={{width: "100px"}}/>
-                            PWL@Berkeley
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav">
-                            <a className="nav-link active" aria-current="page" href="#zbab">Home</a>
-                            <a className="nav-link" href="#zbab">About</a>
-                            <a className="nav-link" href="#zbab">Join PWL</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
             <div className="container">
                 <h1 className={"text-center my-3"}>Upcoming events</h1>
                 {EventsList()}
-
-
             </div>
         </div>
     );
@@ -73,4 +49,4 @@ function EventCard() {
 
 }
 
-export default App;
+export default UpcomingEvents;
