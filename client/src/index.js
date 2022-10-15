@@ -20,6 +20,7 @@ import ErrorPage from "./pages/ErrorPage";
 import reportWebVitals from './reportWebVitals';
 import Join from "./pages/Join";
 import Admin from "./pages/Admin";
+import Fun from "./pages/Fun"
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
             {
                 path: "admin",
                 element: <Admin />
+            },
+            {
+                path: "fun",
+                element: <Fun />
             }
         ]
     }

@@ -22,8 +22,7 @@ function Root() {
                             <a className="nav-link" href="upcomingEvents">Upcoming Events</a>
                             <a className="nav-link" href="join">Join PWL</a>
                             <a className="nav-link" href="#zbab">About</a>
-
-
+                            <a className="nav-link" href="fun">Fun?</a>
                         </div>
                     </div>
                 </div>
