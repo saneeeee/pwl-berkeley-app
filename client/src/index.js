@@ -19,6 +19,7 @@ import UpcomingEvents from './pages/UpcomingEvents';
 import ErrorPage from "./pages/ErrorPage";
 import reportWebVitals from './reportWebVitals';
 import Join from "./pages/Join";
+import Admin from "./pages/Admin";
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
             {
                 path: "join",
                 element: <Join />
+            },
+            {
+                path: "admin",
+                element: <Admin />
             }
         ]
     }

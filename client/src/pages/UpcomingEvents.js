@@ -1,4 +1,3 @@
-import logo from '../static/SVG/pwl@berkeley-logo.svg';
 function UpcomingEvents() {
     return (
         <div className="App">
