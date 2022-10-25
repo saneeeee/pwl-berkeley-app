@@ -4,7 +4,7 @@
   "description": "Webserver for UC Berkeley RSO Papers We Love",
   "main": "index.js",
   "scripts": {
-    "devstart": "nodemon server.js"
+    "devstart": "nodemon server.jst"
   },
   "author": "sanercakir",
   "license": "ISC",
