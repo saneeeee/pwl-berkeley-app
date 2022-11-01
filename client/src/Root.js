@@ -18,10 +18,8 @@ function Root() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link active" aria-current="page" href="/">Home</a>
                             <a className="nav-link" href="upcomingEvents">Upcoming Events</a>
                             <a className="nav-link" href="join">Join PWL</a>
-                            <a className="nav-link" href="#zbab">About</a>
                             <a className="nav-link" href="fun">Fun?</a>
                         </div>
                     </div>

@@ -13,34 +13,27 @@ function EventsList() {
         <div className="eventsList">
             <ul className="px-0" style={{listStyleType: "none"}}>
                 <li>
-                    {EventCard()}
-                </li>
-                <li>
-                    {EventCard()}
-                </li>
-                <li>
-                    {EventCard()}
-                </li>
-                <li>
-                    {EventCard()}
-                </li>
-                <li>
-                    {EventCard()}
+                    <EventCard title="Diffuser Cam" researcher=" Eric Markley" date="November 10 2022">
+                        <>
+                            <strong>Abstract:</strong> In this paper talk Eric Markley from Laura Waller's Computaional
+                            Imaging Lab will present ..........smnfkm;lmgh dnfkklngs kanfj sgpkanfl akmdg aksnfljagdka f
+                            akg jndaglm  a;kngkn smg;mlkaa; ;alngjl agm  ;akgnm s,gkmsj gms gk dgnlknskmgklsng ;lg g;kdg
+                        </>
+                    </EventCard>
                 </li>
             </ul>
         </div>
     );
 }
-function EventCard() {
+function EventCard(props) {
     return (
         <div className="card my-3">
             <div className="card-body">
-                <h2 className={"card-title"}>Paper Talk: <span className={"text-primary"}>FOO BAR by FUBAR</span></h2>
-                <h4 className={"card-subtitle text-pwl-primary"}>November 1 2022</h4>
+                <h2 className={"card-title"}>Paper Talk: <span className={"text-primary"}>{props.title} by
+                    {props.researcher}</span></h2>
+                <h4 className={"card-subtitle text-pwl-primary"}>{props.date}</h4>
                 <p className={"card-text"}>
-                    <strong>Abstract:</strong> In this paper talk we explore laskdjfopw poejghw adfkqwopbjnk as;dg
-                    sdngoiregt qopwrgjnklonqwer qwpojtgn rgq;'o qpowjtjnqwrt pqowjrtlknqw op[qwetkln
-                    qwrntlkwqjrt woptjklqwnme;lwkegkl qp[orjtklonwegkl;as pqowjtklnwqt p;alwejtoijqw
+                    {props.children}
                 </p>
             </div>
         </div>
