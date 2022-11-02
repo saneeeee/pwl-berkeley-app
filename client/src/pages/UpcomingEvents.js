@@ -16,8 +16,11 @@ function EventsList() {
                     <EventCard title="Diffuser Cam" researcher=" Eric Markley" date="November 10 2022">
                         <>
                             <strong>Abstract:</strong> In this paper talk Eric Markley from Laura Waller's Computaional
-                            Imaging Lab will present ..........smnfkm;lmgh dnfkklngs kanfj sgpkanfl akmdg aksnfljagdka f
-                            akg jndaglm  a;kngkn smg;mlkaa; ;alngjl agm  ;akgnm s,gkmsj gms gk dgnlknskmgklsng ;lg g;kdg
+                            Imaging Lab will present DiffuserCam: "a lensless camera made of a piece of bumpy plastic,
+                            called a diffuser, in front of a bare image sensor. Since there are no other elements in the
+                            system, the camera is cheap, compact, and easy to build. We’ve demonstrated that our simple
+                            system can be used for both 2D photography and 3D image reconstruction from a single
+                            acquisition." <a href="https://waller-lab.github.io/DiffuserCam/">Project Page</a>
                         </>
                     </EventCard>
                 </li>

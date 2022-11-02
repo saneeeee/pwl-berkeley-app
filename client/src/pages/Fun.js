@@ -3,7 +3,7 @@ function Fun() {
     return (
         <div className="container">
             <h1 className="text-pwl-primary">Fun?:</h1>
-            <h4>Solve any these weekly puzzles and show us your solution at one of our events for pizza!!</h4>
+            <h4>Show us your solution to any of the weekly puzzles at one of our events for pizza!!</h4>
             <Puzzle title="Enough Consulting Clubs?">
                 <div>
                     <p>There are <b>n</b> students and <b>k</b> consulting clubs at Berkeley,</p>
