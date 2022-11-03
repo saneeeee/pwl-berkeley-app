@@ -17,6 +17,18 @@ function Fun() {
                     </ul>
                     <p>And you were finally able to guess their ages. <b>How old are the bears?</b></p>
                     <p><b>Hint:</b> There can be so many factor triples of 36!</p>
+                    <p><b>Even More Hints:</b>
+                        <ul>
+                            <li>1 * 1 * 36 = 36</li>
+                            <li>1 * 2 * 18 = 36</li>
+                            <li>1 * 3 * 12 = 36</li>
+                            <li>1 * 4 * 9 = 36</li>
+                            <li>1 * 6 * 6 = 36</li>
+                            <li>2 * 2 * 9 = 36</li>
+                            <li>2 * 3 * 6 = 36</li>
+                            <li>3 * 3 * 4 = 36</li>
+                        </ul>
+                    </p>
                 </div>
             </Puzzle>
 
