@@ -15,7 +15,7 @@ function Fun() {
                         <li><p>Although you know their office number, you still couldn't guess their ages, so your got a
                             final clue:<b>"My oldest bear is named Oski"</b></p></li>
                     </ul>
-                    <p>And you were finally able to guess their ages and grab that sweet A+. <b>How old are the bears?</b></p>
+                    <p>And you were finally able to guess their ages. <b>How old are the bears?</b></p>
                     <p><b>Hint:</b> There can be so many factor triples of 36!</p>
                 </div>
             </Puzzle>
