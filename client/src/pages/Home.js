@@ -3,7 +3,7 @@ function Home() {
     return(
         <div className={"container"}>
             <div>
-                <h1 className="text-pwl-primary">Papers We Love at Berkeley</h1>
+                <h1 className="text-pwl-primary">Papers We ❤️ at Berkeley</h1>
                 <h4>Information</h4>
                 <div className="" >
                     <p>
