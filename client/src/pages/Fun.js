@@ -4,7 +4,29 @@ function Fun() {
         <div className="container">
             <h1 className="text-pwl-primary">Fun?:</h1>
             <h4>Show us your solution to any of the weekly puzzles at one of our events for pizza!!</h4>
-            <Puzzle title="Three Bears">
+            <Puzzle title="Ruthless Ropes">
+                <p><b>Difficulty:</b> <span style={{color: "green"}}>Easy</span></p>
+                <div>
+                    <p>You have <b>two immeasurable</b> (can't find length, half etc.), <b>fixed</b> (can't bend, tie, cut etc.), <b>nonuniform</b> (some parts burn faster than others)
+                        ropes that <b>need not share anything other than taking 60 minutes to burn</b>.</p>
+                    <p><b>Measure 45 minutes.</b></p>
+                </div>
+            </Puzzle>
+            <Puzzle title="Painful Pimentel">
+                <p><b>Difficulty:</b> <span style={{color: "green"}}>Easy</span></p>
+                <div>
+                    <p>For this problem assume that Pimentel hall has a capacity of <b>100 students and your class of 100 students enforces a seating assignment.</b></p>
+                    <p>On a rainy tuesday morning, you are <b>last in a line</b> of 100 students to enter Pimentel hall. However, <b>the first person in line is unaware of the assigned seating policy and will sit at a random seat.</b></p>
+                    <p>Every subsequent person in line will either:</p>
+                    <ul>
+                        <li><p>sit at their assigned seat if it is empty, or</p></li>
+                        <li><p>sit at a random seat if their assigned seat is occupied.</p></li>
+                    </ul>
+                    <p><b>What is the probability that you will sit at your assigned seat?</b></p>
+                </div>
+            </Puzzle>
+            <Puzzle title="Three Bears"><p>
+                <b>Difficulty:</b> <span style={{color: "green"}}>Easy</span></p>
                 <div>
                     <p>Your CS professor offers an A+ to anyone who can guess the ages of his 3 bears.
                         However if you make a single wrong guess, you'll fail the class.</p>
@@ -31,8 +53,8 @@ function Fun() {
                     </p>
                 </div>
             </Puzzle>
-
-            <Puzzle title="Enough Consulting Clubs?">
+            <Puzzle title="Enough Consulting Clubs">
+                <p><b>Difficulty:</b> <span style={{color: "orange"}}>Medium</span></p>
                 <div>
                     <p>There are <b>n</b> students and <b>k</b> consulting clubs at Berkeley,</p>
                     <ul>
