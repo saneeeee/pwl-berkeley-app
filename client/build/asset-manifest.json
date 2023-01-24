@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.5da15784.css",
-    "main.js": "/static/js/main.b1a091e3.js",
+    "main.js": "/static/js/main.877e60d3.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/index.html",
     "static/media/pwl@berkeley-logo.svg": "/static/media/pwl@berkeley-logo.1e08ec120298cff7c732d61271641615.svg",
     "main.5da15784.css.map": "/static/css/main.5da15784.css.map",
-    "main.b1a091e3.js.map": "/static/js/main.b1a091e3.js.map",
+    "main.877e60d3.js.map": "/static/js/main.877e60d3.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5da15784.css",
-    "static/js/main.b1a091e3.js"
+    "static/js/main.877e60d3.js"
   ]
 }
